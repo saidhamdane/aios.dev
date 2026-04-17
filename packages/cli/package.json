@@ -1,0 +1,33 @@
+{
+  "name": "@aios/cli",
+  "version": "0.1.0",
+  "description": "Agency OS CLI — Node.js wrapper around Claude Code for agencies",
+  "keywords": ["claude", "claude-code", "ai", "agency", "cli"],
+  "license": "MIT",
+  "author": "AIOS",
+  "main": "dist/index.js",
+  "bin": {
+    "aios": "dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "conf": "^13.0.0",
+    "enquirer": "^2.4.1",
+    "node-fetch": "^3.3.2",
+    "ora": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

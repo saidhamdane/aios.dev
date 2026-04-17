@@ -1,0 +1,192 @@
+{
+  "common": {
+    "loading": "Cargando…",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "back": "Volver",
+    "next": "Siguiente",
+    "confirm": "Confirmar",
+    "search": "Buscar",
+    "noResults": "Sin resultados",
+    "error": "Algo salió mal",
+    "success": "Éxito"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "projects": "Proyectos",
+    "agents": "Agentes",
+    "billing": "Facturación",
+    "settings": "Configuración",
+    "docs": "Documentación",
+    "signOut": "Cerrar sesión"
+  },
+  "landing": {
+    "hero": {
+      "badge": "En Beta",
+      "headline": "Sistema Operativo de Agencia para Claude Code",
+      "subheadline": "Transforma Claude Code de una herramienta individual a infraestructura para toda tu agencia.",
+      "cta": "Empieza gratis",
+      "ctaSub": "Sin tarjeta de crédito"
+    },
+    "features": {
+      "title": "Todo lo que tu agencia necesita",
+      "subtitle": "Construido sobre Claude Code con el stack completo.",
+      "items": {
+        "projects": {
+          "title": "Gestión de Proyectos",
+          "desc": "Organiza el trabajo entre clientes y equipos con proyectos estructurados."
+        },
+        "agents": {
+          "title": "Agentes Personalizados",
+          "desc": "Configura y despliega agentes Claude especializados para cada flujo de trabajo."
+        },
+        "api": {
+          "title": "API Lista para Agentes",
+          "desc": "Cada endpoint devuelve JSON semántico consumible por otros agentes."
+        },
+        "i18n": {
+          "title": "Listo para el Mundo",
+          "desc": "Soporte completo para inglés, español y árabe (RTL)."
+        },
+        "billing": {
+          "title": "Facturación de Uso",
+          "desc": "Rastrea el uso de tokens y costos en todos tus proyectos."
+        },
+        "cli": {
+          "title": "Integración CLI",
+          "desc": "Instala @aios/cli y potencia Claude Code con superpoderes de agencia."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Precios simples",
+      "subtitle": "Empieza gratis, escala al crecer.",
+      "free": {
+        "name": "Gratis",
+        "price": "$0",
+        "period": "/mes",
+        "cta": "Comenzar"
+      },
+      "solo": {
+        "name": "Solo",
+        "price": "$29",
+        "period": "/mes",
+        "badge": "Más popular",
+        "cta": "Empezar Solo"
+      },
+      "agency": {
+        "name": "Agencia",
+        "price": "$99",
+        "period": "/mes",
+        "cta": "Empezar Agencia"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenido de nuevo",
+      "subtitle": "Inicia sesión en tu cuenta AIOS",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "submit": "Iniciar sesión",
+      "noAccount": "¿No tienes cuenta?",
+      "signUp": "Regístrate"
+    },
+    "register": {
+      "title": "Crea tu cuenta",
+      "subtitle": "Empieza a construir con AIOS hoy",
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "submit": "Crear cuenta",
+      "hasAccount": "¿Ya tienes cuenta?",
+      "signIn": "Inicia sesión",
+      "terms": "Al registrarte, aceptas nuestros Términos de Servicio y Política de Privacidad."
+    }
+  },
+  "dashboard": {
+    "title": "Panel",
+    "welcome": "Bienvenido, {name}",
+    "stats": {
+      "projects": "Proyectos activos",
+      "sessions": "Sesiones este mes",
+      "agents": "Agentes configurados",
+      "cost": "Costo est. este mes"
+    },
+    "recentSessions": "Sesiones recientes",
+    "quickActions": "Acciones rápidas",
+    "newProject": "Nuevo proyecto",
+    "newAgent": "Nuevo agente"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "new": "Nuevo proyecto",
+    "empty": "Sin proyectos",
+    "emptyDesc": "Crea tu primer proyecto para comenzar.",
+    "form": {
+      "name": "Nombre del proyecto",
+      "namePlaceholder": "Mi Proyecto de Agencia",
+      "description": "Descripción",
+      "descriptionPlaceholder": "¿De qué trata este proyecto?",
+      "submit": "Crear proyecto"
+    },
+    "status": {
+      "active": "Activo",
+      "paused": "Pausado",
+      "archived": "Archivado"
+    }
+  },
+  "agents": {
+    "title": "Agentes",
+    "new": "Nuevo agente",
+    "empty": "Sin agentes configurados",
+    "emptyDesc": "Crea un agente personalizado para tus proyectos.",
+    "form": {
+      "name": "Nombre del agente",
+      "description": "Descripción",
+      "model": "Modelo",
+      "systemPrompt": "Prompt del sistema",
+      "submit": "Crear agente"
+    }
+  },
+  "billing": {
+    "title": "Facturación",
+    "currentPlan": "Plan actual",
+    "usage": "Uso este mes",
+    "sessions": "Sesiones",
+    "tokens": "Tokens",
+    "cost": "Costo estimado",
+    "upgrade": "Mejorar plan",
+    "manage": "Gestionar suscripción",
+    "plans": {
+      "free": "Gratis",
+      "solo": "Solo",
+      "agency": "Agencia"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "profile": "Perfil",
+    "apiKeys": "Claves API",
+    "team": "Equipo",
+    "danger": "Zona de Peligro",
+    "profileForm": {
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico",
+      "submit": "Guardar cambios"
+    },
+    "apiKeysSection": {
+      "create": "Crear clave API",
+      "name": "Nombre de la clave",
+      "namePlaceholder": "Clave de producción",
+      "created": "Clave creada — cópiala ahora, no se mostrará de nuevo.",
+      "empty": "Sin claves API",
+      "emptyDesc": "Crea una clave API para usar la API de AIOS."
+    }
+  }
+}
