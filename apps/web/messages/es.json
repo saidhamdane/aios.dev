@@ -139,6 +139,15 @@
       "active": "Activo",
       "paused": "Pausado",
       "archived": "Archivado"
+    },
+    "detail": {
+      "agents": "Agentes",
+      "newAgent": "Nuevo Agente",
+      "sessions": "Sesiones Recientes",
+      "saveChanges": "Guardar cambios",
+      "saved": "Guardado",
+      "noAgents": "Aún no hay agentes en este proyecto.",
+      "noSessions": "Aún no hay sesiones."
     }
   },
   "agents": {
@@ -151,6 +160,8 @@
       "description": "Descripción",
       "model": "Modelo",
       "systemPrompt": "Prompt del sistema",
+      "project": "Proyecto",
+      "projectPlaceholder": "Selecciona un proyecto",
       "submit": "Crear agente"
     }
   },
@@ -163,6 +174,8 @@
     "cost": "Costo estimado",
     "upgrade": "Mejorar plan",
     "manage": "Gestionar suscripción",
+    "notConfigured": "Stripe aún no está configurado.",
+    "notConfiguredDesc": "Añade STRIPE_SECRET_KEY a tus variables de entorno para activar la facturación.",
     "plans": {
       "free": "Gratis",
       "solo": "Solo",

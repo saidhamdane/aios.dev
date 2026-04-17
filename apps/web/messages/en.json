@@ -139,6 +139,15 @@
       "active": "Active",
       "paused": "Paused",
       "archived": "Archived"
+    },
+    "detail": {
+      "agents": "Agents",
+      "newAgent": "New Agent",
+      "sessions": "Recent Sessions",
+      "saveChanges": "Save changes",
+      "saved": "Saved",
+      "noAgents": "No agents in this project yet.",
+      "noSessions": "No sessions yet."
     }
   },
   "agents": {
@@ -151,6 +160,8 @@
       "description": "Description",
       "model": "Model",
       "systemPrompt": "System prompt",
+      "project": "Project",
+      "projectPlaceholder": "Select a project",
       "submit": "Create agent"
     }
   },
@@ -163,6 +174,8 @@
     "cost": "Estimated cost",
     "upgrade": "Upgrade plan",
     "manage": "Manage subscription",
+    "notConfigured": "Stripe is not configured yet.",
+    "notConfiguredDesc": "Add STRIPE_SECRET_KEY to your environment variables to enable billing.",
     "plans": {
       "free": "Free",
       "solo": "Solo",
