@@ -1,0 +1,192 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "search": "Search",
+    "noResults": "No results found",
+    "error": "Something went wrong",
+    "success": "Success"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "agents": "Agents",
+    "billing": "Billing",
+    "settings": "Settings",
+    "docs": "Docs",
+    "signOut": "Sign out"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Now in Beta",
+      "headline": "Agency OS for Claude Code",
+      "subheadline": "Transform Claude Code from a solo tool into infrastructure for your entire agency. Manage projects, orchestrate agents, and ship faster.",
+      "cta": "Start for free",
+      "ctaSub": "No credit card required"
+    },
+    "features": {
+      "title": "Everything your agency needs",
+      "subtitle": "Built on top of Claude Code with the full stack your team requires.",
+      "items": {
+        "projects": {
+          "title": "Project Management",
+          "desc": "Organize work across clients and teams with structured projects."
+        },
+        "agents": {
+          "title": "Custom Agents",
+          "desc": "Configure and deploy specialized Claude agents for every workflow."
+        },
+        "api": {
+          "title": "Agent-Ready API",
+          "desc": "Every endpoint returns semantic JSON consumable by other agents."
+        },
+        "i18n": {
+          "title": "Global Ready",
+          "desc": "Full support for English, Spanish, and Arabic (RTL)."
+        },
+        "billing": {
+          "title": "Usage Billing",
+          "desc": "Track token usage and costs across all your projects and clients."
+        },
+        "cli": {
+          "title": "CLI Integration",
+          "desc": "Install @aios/cli and wrap Claude Code with agency superpowers."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Simple pricing",
+      "subtitle": "Start free, scale as you grow.",
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "period": "/month",
+        "cta": "Get started"
+      },
+      "solo": {
+        "name": "Solo",
+        "price": "$29",
+        "period": "/month",
+        "badge": "Most popular",
+        "cta": "Start Solo"
+      },
+      "agency": {
+        "name": "Agency",
+        "price": "$99",
+        "period": "/month",
+        "cta": "Start Agency"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your AIOS account",
+      "email": "Email address",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start building with AIOS today",
+      "fullName": "Full name",
+      "email": "Email address",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "terms": "By signing up, you agree to our Terms of Service and Privacy Policy."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {name}",
+    "stats": {
+      "projects": "Active Projects",
+      "sessions": "Sessions this month",
+      "agents": "Configured Agents",
+      "cost": "Est. cost this month"
+    },
+    "recentSessions": "Recent Sessions",
+    "quickActions": "Quick Actions",
+    "newProject": "New Project",
+    "newAgent": "New Agent"
+  },
+  "projects": {
+    "title": "Projects",
+    "new": "New Project",
+    "empty": "No projects yet",
+    "emptyDesc": "Create your first project to get started.",
+    "form": {
+      "name": "Project name",
+      "namePlaceholder": "My Agency Project",
+      "description": "Description",
+      "descriptionPlaceholder": "What is this project about?",
+      "submit": "Create project"
+    },
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "archived": "Archived"
+    }
+  },
+  "agents": {
+    "title": "Agents",
+    "new": "New Agent",
+    "empty": "No agents configured",
+    "emptyDesc": "Create a custom agent for your projects.",
+    "form": {
+      "name": "Agent name",
+      "description": "Description",
+      "model": "Model",
+      "systemPrompt": "System prompt",
+      "submit": "Create agent"
+    }
+  },
+  "billing": {
+    "title": "Billing",
+    "currentPlan": "Current plan",
+    "usage": "Usage this month",
+    "sessions": "Sessions",
+    "tokens": "Tokens",
+    "cost": "Estimated cost",
+    "upgrade": "Upgrade plan",
+    "manage": "Manage subscription",
+    "plans": {
+      "free": "Free",
+      "solo": "Solo",
+      "agency": "Agency"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "apiKeys": "API Keys",
+    "team": "Team",
+    "danger": "Danger Zone",
+    "profileForm": {
+      "fullName": "Full name",
+      "email": "Email",
+      "submit": "Save changes"
+    },
+    "apiKeysSection": {
+      "create": "Create API key",
+      "name": "Key name",
+      "namePlaceholder": "Production key",
+      "created": "Key created — copy it now, it won't be shown again.",
+      "empty": "No API keys",
+      "emptyDesc": "Create an API key to use the AIOS API."
+    }
+  }
+}
